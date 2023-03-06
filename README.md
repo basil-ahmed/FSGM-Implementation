@@ -1,5 +1,6 @@
 # FSGM-Implementation
 
+- Implemented in PyTorch
 - Works by adding a small amount of random noise to the input data
 - The attack computes the gradient of the loss function with respect to the input data, and then adds noise to the input in the direction of the gradient, while constraining the size of the noise to be small.
 - Often used as a benchmark for evaluating the robustness of machine learning models
